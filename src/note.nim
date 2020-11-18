@@ -1,5 +1,5 @@
-# This is just an example to get you started. A typical binary package
-# uses this file as the main entry point of the application.
+import loader
 
 when isMainModule:
-  echo("Hello, World!")
+  var account_info = load_account()
+  echo account_info.host

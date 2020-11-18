@@ -1,5 +1,5 @@
-import client
+import window
 
 when isMainModule:
-  client.init()
-  post_note("てーすと")
+  window.init()
+

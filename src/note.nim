@@ -1,5 +1,5 @@
-import loader
+import client
 
 when isMainModule:
-  var account_info = load_account()
-  echo account_info.host
+  client.init()
+  post_note("てーすと")

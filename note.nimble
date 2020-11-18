@@ -11,4 +11,6 @@ bin           = @["note"]
 
 # Dependencies
 
-requires "nim >= 0.19.9"
+requires "nim >= 0.19.9", "nimSHA2 >= 0.1.1"
+
+
